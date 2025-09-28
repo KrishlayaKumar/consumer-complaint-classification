@@ -168,13 +168,14 @@ for name, model in models.items():
 <img width="649" height="320" alt="Image" src="https://github.com/user-attachments/assets/657a99f9-8006-485b-a7c3-51e917ad02c1" />
 <img width="647" height="315" alt="Image" src="https://github.com/user-attachments/assets/823c0885-6517-47f9-aa16-525530b132a8" />
 <img width="635" height="311" alt="Image" src="https://github.com/user-attachments/assets/3441dad8-2726-4b1a-96d6-6c5976d46dc9" />
- we have choose the Logistic regression as our main model
 
-## confusion matrix.
+we have choose the Logistic regression as our main model
+
+## 5) confusion matrix.
 
 <img width="642" height="599" alt="Image" src="https://github.com/user-attachments/assets/55e3d431-ec51-441d-95a2-2f8e852d87b9" />
 
-## Model Testing
+## 6) Model Testing
 
 ```python
 sample_text = [
@@ -191,7 +192,7 @@ for txt, pred in zip(sample_text, predictions):
 ```
 <img width="932" height="53" alt="Image" src="https://github.com/user-attachments/assets/c7384828-987d-4d00-942d-3c5f800987be" />
 
-## Model save
+## 7) Model save
 
 ```python
 import joblib
